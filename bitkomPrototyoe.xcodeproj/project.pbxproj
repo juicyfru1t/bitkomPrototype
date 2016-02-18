@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96770D271C75B55700CA0B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96770D261C75B55700CA0B49 /* AppDelegate.swift */; };
+		96770D291C75B55700CA0B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96770D281C75B55700CA0B49 /* ViewController.swift */; };
+		96770D2C1C75B55700CA0B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96770D2A1C75B55700CA0B49 /* Main.storyboard */; };
+		96770D2F1C75B55700CA0B49 /* bitkomPrototyoe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96770D2D1C75B55700CA0B49 /* bitkomPrototyoe.xcdatamodeld */; };
+		96770D311C75B55700CA0B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96770D301C75B55700CA0B49 /* Assets.xcassets */; };
+		96770D341C75B55700CA0B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96770D321C75B55700CA0B49 /* LaunchScreen.storyboard */; };
+		96770D3F1C75B55700CA0B49 /* bitkomPrototyoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96770D3E1C75B55700CA0B49 /* bitkomPrototyoeTests.swift */; };
+		96770D4A1C75B55700CA0B49 /* bitkomPrototyoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96770D491C75B55700CA0B49 /* bitkomPrototyoeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96770D3B1C75B55700CA0B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96770D1B1C75B55600CA0B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96770D221C75B55700CA0B49;
+			remoteInfo = bitkomPrototyoe;
+		};
+		96770D461C75B55700CA0B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96770D1B1C75B55600CA0B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96770D221C75B55700CA0B49;
+			remoteInfo = bitkomPrototyoe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96770D231C75B55700CA0B49 /* bitkomPrototyoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitkomPrototyoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96770D261C75B55700CA0B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96770D281C75B55700CA0B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96770D2B1C75B55700CA0B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96770D2E1C75B55700CA0B49 /* bitkomPrototyoe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bitkomPrototyoe.xcdatamodel; sourceTree = "<group>"; };
+		96770D301C75B55700CA0B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96770D331C75B55700CA0B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96770D351C75B55700CA0B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96770D3A1C75B55700CA0B49 /* bitkomPrototyoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitkomPrototyoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96770D3E1C75B55700CA0B49 /* bitkomPrototyoeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitkomPrototyoeTests.swift; sourceTree = "<group>"; };
+		96770D401C75B55700CA0B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96770D451C75B55700CA0B49 /* bitkomPrototyoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitkomPrototyoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96770D491C75B55700CA0B49 /* bitkomPrototyoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitkomPrototyoeUITests.swift; sourceTree = "<group>"; };
+		96770D4B1C75B55700CA0B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96770D201C75B55700CA0B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96770D371C75B55700CA0B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96770D421C75B55700CA0B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96770D1A1C75B55600CA0B49 = {
+			isa = PBXGroup;
+			children = (
+				96770D251C75B55700CA0B49 /* bitkomPrototyoe */,
+				96770D3D1C75B55700CA0B49 /* bitkomPrototyoeTests */,
+				96770D481C75B55700CA0B49 /* bitkomPrototyoeUITests */,
+				96770D241C75B55700CA0B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96770D241C75B55700CA0B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96770D231C75B55700CA0B49 /* bitkomPrototyoe.app */,
+				96770D3A1C75B55700CA0B49 /* bitkomPrototyoeTests.xctest */,
+				96770D451C75B55700CA0B49 /* bitkomPrototyoeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96770D251C75B55700CA0B49 /* bitkomPrototyoe */ = {
+			isa = PBXGroup;
+			children = (
+				96770D261C75B55700CA0B49 /* AppDelegate.swift */,
+				96770D281C75B55700CA0B49 /* ViewController.swift */,
+				96770D2A1C75B55700CA0B49 /* Main.storyboard */,
+				96770D301C75B55700CA0B49 /* Assets.xcassets */,
+				96770D321C75B55700CA0B49 /* LaunchScreen.storyboard */,
+				96770D351C75B55700CA0B49 /* Info.plist */,
+				96770D2D1C75B55700CA0B49 /* bitkomPrototyoe.xcdatamodeld */,
+			);
+			path = bitkomPrototyoe;
+			sourceTree = "<group>";
+		};
+		96770D3D1C75B55700CA0B49 /* bitkomPrototyoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				96770D3E1C75B55700CA0B49 /* bitkomPrototyoeTests.swift */,
+				96770D401C75B55700CA0B49 /* Info.plist */,
+			);
+			path = bitkomPrototyoeTests;
+			sourceTree = "<group>";
+		};
+		96770D481C75B55700CA0B49 /* bitkomPrototyoeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96770D491C75B55700CA0B49 /* bitkomPrototyoeUITests.swift */,
+				96770D4B1C75B55700CA0B49 /* Info.plist */,
+			);
+			path = bitkomPrototyoeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96770D221C75B55700CA0B49 /* bitkomPrototyoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96770D4E1C75B55700CA0B49 /* Build configuration list for PBXNativeTarget "bitkomPrototyoe" */;
+			buildPhases = (
+				96770D1F1C75B55700CA0B49 /* Sources */,
+				96770D201C75B55700CA0B49 /* Frameworks */,
+				96770D211C75B55700CA0B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitkomPrototyoe;
+			productName = bitkomPrototyoe;
+			productReference = 96770D231C75B55700CA0B49 /* bitkomPrototyoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96770D391C75B55700CA0B49 /* bitkomPrototyoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96770D511C75B55700CA0B49 /* Build configuration list for PBXNativeTarget "bitkomPrototyoeTests" */;
+			buildPhases = (
+				96770D361C75B55700CA0B49 /* Sources */,
+				96770D371C75B55700CA0B49 /* Frameworks */,
+				96770D381C75B55700CA0B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96770D3C1C75B55700CA0B49 /* PBXTargetDependency */,
+			);
+			name = bitkomPrototyoeTests;
+			productName = bitkomPrototyoeTests;
+			productReference = 96770D3A1C75B55700CA0B49 /* bitkomPrototyoeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96770D441C75B55700CA0B49 /* bitkomPrototyoeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96770D541C75B55700CA0B49 /* Build configuration list for PBXNativeTarget "bitkomPrototyoeUITests" */;
+			buildPhases = (
+				96770D411C75B55700CA0B49 /* Sources */,
+				96770D421C75B55700CA0B49 /* Frameworks */,
+				96770D431C75B55700CA0B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96770D471C75B55700CA0B49 /* PBXTargetDependency */,
+			);
+			name = bitkomPrototyoeUITests;
+			productName = bitkomPrototyoeUITests;
+			productReference = 96770D451C75B55700CA0B49 /* bitkomPrototyoeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96770D1B1C75B55600CA0B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = emtc;
+				TargetAttributes = {
+					96770D221C75B55700CA0B49 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9KJ74TVHAH;
+					};
+					96770D391C75B55700CA0B49 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9KJ74TVHAH;
+						TestTargetID = 96770D221C75B55700CA0B49;
+					};
+					96770D441C75B55700CA0B49 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9KJ74TVHAH;
+						TestTargetID = 96770D221C75B55700CA0B49;
+					};
+				};
+			};
+			buildConfigurationList = 96770D1E1C75B55600CA0B49 /* Build configuration list for PBXProject "bitkomPrototyoe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96770D1A1C75B55600CA0B49;
+			productRefGroup = 96770D241C75B55700CA0B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96770D221C75B55700CA0B49 /* bitkomPrototyoe */,
+				96770D391C75B55700CA0B49 /* bitkomPrototyoeTests */,
+				96770D441C75B55700CA0B49 /* bitkomPrototyoeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96770D211C75B55700CA0B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96770D341C75B55700CA0B49 /* LaunchScreen.storyboard in Resources */,
+				96770D311C75B55700CA0B49 /* Assets.xcassets in Resources */,
+				96770D2C1C75B55700CA0B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96770D381C75B55700CA0B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96770D431C75B55700CA0B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96770D1F1C75B55700CA0B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96770D291C75B55700CA0B49 /* ViewController.swift in Sources */,
+				96770D271C75B55700CA0B49 /* AppDelegate.swift in Sources */,
+				96770D2F1C75B55700CA0B49 /* bitkomPrototyoe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96770D361C75B55700CA0B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96770D3F1C75B55700CA0B49 /* bitkomPrototyoeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96770D411C75B55700CA0B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96770D4A1C75B55700CA0B49 /* bitkomPrototyoeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96770D3C1C75B55700CA0B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96770D221C75B55700CA0B49 /* bitkomPrototyoe */;
+			targetProxy = 96770D3B1C75B55700CA0B49 /* PBXContainerItemProxy */;
+		};
+		96770D471C75B55700CA0B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96770D221C75B55700CA0B49 /* bitkomPrototyoe */;
+			targetProxy = 96770D461C75B55700CA0B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96770D2A1C75B55700CA0B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96770D2B1C75B55700CA0B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96770D321C75B55700CA0B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96770D331C75B55700CA0B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96770D4C1C75B55700CA0B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96770D4D1C75B55700CA0B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96770D4F1C75B55700CA0B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bitkomPrototyoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emtc.bitkomPrototyoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96770D501C75B55700CA0B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bitkomPrototyoe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emtc.bitkomPrototyoe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96770D521C75B55700CA0B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bitkomPrototyoeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emtc.bitkomPrototyoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitkomPrototyoe.app/bitkomPrototyoe";
+			};
+			name = Debug;
+		};
+		96770D531C75B55700CA0B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bitkomPrototyoeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emtc.bitkomPrototyoeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitkomPrototyoe.app/bitkomPrototyoe";
+			};
+			name = Release;
+		};
+		96770D551C75B55700CA0B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bitkomPrototyoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emtc.bitkomPrototyoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bitkomPrototyoe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		96770D561C75B55700CA0B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bitkomPrototyoeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emtc.bitkomPrototyoeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bitkomPrototyoe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96770D1E1C75B55600CA0B49 /* Build configuration list for PBXProject "bitkomPrototyoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96770D4C1C75B55700CA0B49 /* Debug */,
+				96770D4D1C75B55700CA0B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96770D4E1C75B55700CA0B49 /* Build configuration list for PBXNativeTarget "bitkomPrototyoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96770D4F1C75B55700CA0B49 /* Debug */,
+				96770D501C75B55700CA0B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96770D511C75B55700CA0B49 /* Build configuration list for PBXNativeTarget "bitkomPrototyoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96770D521C75B55700CA0B49 /* Debug */,
+				96770D531C75B55700CA0B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96770D541C75B55700CA0B49 /* Build configuration list for PBXNativeTarget "bitkomPrototyoeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96770D551C75B55700CA0B49 /* Debug */,
+				96770D561C75B55700CA0B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96770D2D1C75B55700CA0B49 /* bitkomPrototyoe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96770D2E1C75B55700CA0B49 /* bitkomPrototyoe.xcdatamodel */,
+			);
+			currentVersion = 96770D2E1C75B55700CA0B49 /* bitkomPrototyoe.xcdatamodel */;
+			path = bitkomPrototyoe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96770D1B1C75B55600CA0B49 /* Project object */;
+}
